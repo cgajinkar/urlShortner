@@ -15,7 +15,7 @@ step 5: install npm modules
 
 step 6: create db tables==> node seeder\dbseeder.js
 
-step 5: to start server==>node index.js
+step 7: to start server==>node index.js
 POST Url==>http://localhost:8787/
 POST Body==>
 {
