@@ -1,0 +1,21 @@
+{
+  "name": "urlshortner-service",
+  "version": "1.0.0",
+  "description": "urlshortner service lambda",
+  "main": "index.js",
+  "dependencies": {
+    "dynogels": "^9.0.0",
+    "express": "^4.16.4",
+    "rxjs": "^6.3.3"
+  },
+  "devDependencies": {
+    "jasmine": "^3.3.1",
+    "lodash": "^4.17.11"
+  },
+  "scripts": {
+    "test-init": "node_modules/jasmine/bin/jasmine.js init",
+    "test": "node_modules/jasmine/bin/jasmine.js"
+  },
+  "author": "cgajinka",
+  "license": "ISC"
+}

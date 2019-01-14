@@ -8,6 +8,7 @@ java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -port 8383
 step 3: Configure aws-cli with accesskey and secret key.
 step 4: Set env.bat/sh variable
 step 5: install npm modules
+step 6: create db tables==> node seeder\dbseeder.js
 step 5: to start server==>node index.js
 POST Url==>http://localhost:8787/
 POST Body==>
